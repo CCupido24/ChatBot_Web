@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Chat Icon -->
+<div id="chatIcon">
+    <img src="image/chatbot_01_01_03_bot_chat_robot_app_artificial_chatbot_dialog-1024.webp" alt="Chat Icon" width="100px" height="100px">
+</div>
+
+<!-- Chat Portal -->
+<div id="chatContainer" class="chat-container">
+    <header class="chat-header">
+            <img src="image/B-B.png" alt="" height="50px" width="50px"  style="border-radius: 50%;">
+            <p style="display: inline;">Binary Bot</p>
+            <span id="closeChat" class="close-btn">&times;</span>
+    </header>
+    <div id="chatBody" class="chat-body">
+        <!-- Chat messages will be displayed here -->
+        Hi, welcome to Binary Brains ChatBot! How may I assist you?.
+    </div>
+    <form id="chatForm">
+        <input type="text" id="userInput" placeholder="Type message...">
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="script.js"></script>
+</div>
+
+</body>
+</html>
